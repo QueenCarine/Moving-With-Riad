@@ -270,7 +270,7 @@ height:1050px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-  }
+      }
   .discoverMore h1{
     color: white;
   }
@@ -287,9 +287,12 @@ height:1050px;
   .newsAndArticles{
     display: flex;
     gap: 30px;
+    height: 3vh;
+
   }
   .news{
-    position: relative;width: 100%;
+    position: relative;
+    width: 90%;
   }
   .news img{
     width: 90%; 
@@ -309,7 +312,8 @@ height:1050px;
     height: 40%;
   }
   .articleAdmin{
-    position: absolute;top: 0;left: 0;
+    position: absolute;
+    top: 0;left: 0;
   }
   .article3{
     position: relative;
@@ -351,4 +355,54 @@ height:1050px;
     height: 8vh;
     margin-top: 1vh;
     background-color: rgb(249,180,46);
+  }
+  .subscribeNow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .subscribeNow a{
+    color: #F9B42E;
+  }
+  .subscribeNow h1{
+    color: black;
+  }
+  .testimonies{
+    background-color: rgb(246,246,246);
+    border: 1px solid black;
+    height: 700px;
+  }
+  .testimony1{
+    display: flex;
+    justify-content: center;
+    gap: 4vh;
+  }
+  .testimonial1{
+    padding: 5vh;
+    height: 30vh;
+    background-color: white;
+    width: 27vh;
+  }
+  .testimonial1 i{
+    background: white;
+  }
+  .testimonial2{
+    padding: 5vh;
+    height: 30vh;
+    background-color: white;
+    width: 27vh;
+  }
+  .testimonial2 i{
+    background: white;
+  }
+  .testimonial3{
+    padding: 5vh;
+    height: 30vh;
+    background-color: white;
+    width: 27vh;
+  }
+  .testimonial3 i{
+    background: white;
   }
