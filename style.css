@@ -1,5 +1,5 @@
 body{
-    margin: 0 auto;
+    width:100%;
 }
 .verifyMoling a{
     color:white;
@@ -8,30 +8,41 @@ body{
     background-color: black;
     color:rgb(199, 178, 178);
     padding: 18px;
-    width:1500px;
+    width:100%;
     margin: 0 auto; 
+    display: flex;
+    align-items: center;
+
+}
+.verifyMoling span{
+  margin-left:20px;
 }
 .tickIcon{
-    margin-left: 150px;
+    margin-left: 700px;
+    color: orange;
+
 }
 .contactInfo{
     display: flex;
-   justify-content: space-between;
-    width:1200px;
-    margin: 0 auto;
+    gap:1000px;
+    width:100%;
     padding: 20px;
+    margin-left:300px;
+    
 }
-.emailInfo{
+.emailInfo,.phonenumberInfo{
     display: flex;
+    align-items: center;
 }
-.phonenumberInfo{
-    display: flex;
+.emailInfo,.phonenumberInfo{
+  margin-right: 10px;
 }
+
 .navigationPanel {
     display: flex;
-    justify-content:space-between;
-    margin: 0 auto;
-    width: 1500px;
+    gap:30px;
+    margin-left:600px;
+    width: 100%;
 }
 .navigationPanel a{
     color: rgb(90, 83, 83);
@@ -44,7 +55,7 @@ header {
     color: orange;
 }
 .familyMoving img{
-    width:1500px;
+    width:100%;
     padding: 20px;margin:0 auto;
     display: block;
     height:95vh;
@@ -392,7 +403,6 @@ height:1050px;
   }
   .testimonies{
     background-color: rgb(246,246,246);
-    border: 1px solid black;
     height: 700px;
   }
   .testimony1{
@@ -426,4 +436,21 @@ height:1050px;
   }
   .testimonial3 i{
     background: white;
+  }
+  .testimony1 img{
+    width:5vh;
+    height:5vh;
+    border-radius: 50px;
+  }
+  .testimony a{
+    color: #F9B42E;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+
+
+  }
+  .testimony h2{
+    text-align: center;
+
   }
