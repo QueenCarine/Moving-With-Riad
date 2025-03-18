@@ -56,7 +56,8 @@ header {
 }
 .familyMoving img{
     width:100%;
-    padding: 20px;margin:0 auto;
+    padding: 15px;
+    margin:0 auto;
     display: block;
     height:95vh;
 
@@ -230,6 +231,7 @@ height:1050px;
   #bookUs{
     text-align: center;
     color: gray;
+    font-size: 30px;
   }
   #bookUs a{
     color: orange;
@@ -237,10 +239,13 @@ height:1050px;
   .requestForm{
     margin:0 auto;
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
     padding: 300px;
     background-color: blue;
-    height:10vh;
+    height:5vh;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
     
     
   }
@@ -250,6 +255,8 @@ height:1050px;
     margin:5px 0;
     border: 5px;
     border: solid 1px;
+
+
   }
   .requestForm button{
       border:none;
@@ -259,17 +266,25 @@ height:1050px;
       margin:0px;
       display: block;
       font-size: 20px;
-      width: 145%;
+      width: 140%;
       height: 50px;
-      background-color: black;
+      background-color: orange;
       color: white;
+      margin-left: 100px;
+  }
+  .requestForm label{
+    color: white;
   }
   .bookNow{
     text-align: center;
-    background-color: orange;
+    background-color: rgb(233, 160, 14);
     padding:300px;
     width:50%;
     margin-bottom: 100px;
+    height:5vh;
+  }
+  .bookNow p,a{
+    color: white;
   }
   .makeARequest{
     display: flex;
@@ -325,6 +340,27 @@ height:1050px;
   .news{
     position: relative;
     width: 90%;
+  }
+  .news p{
+    margin-top:50px;
+    color: rgb(2, 49, 2);
+  }
+  .news h1{
+    color: rgb(2, 49, 2);
+  }
+  .article2 p{
+    margin-top:50px;
+    color:rgb(2, 49, 2);
+  }
+  .article2 h1{
+    color: rgb(2, 49, 2);
+  }
+  .article3 p{
+    margin-top:50px;
+    color: rgb(2, 49, 2);
+  }
+  .article3 h1{
+    color: rgb(2, 49, 2);
   }
   .news img{
     width: 90%; 
@@ -447,10 +483,16 @@ height:1050px;
     display: block;
     text-align: center;
     margin: 0 auto;
+    font-size: 25px;
 
 
   }
   .testimony h2{
     text-align: center;
 
+  }
+  .nextImage{
+display: flex;
+justify-content: center;
+gap:995px;
   }
